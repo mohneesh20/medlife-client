@@ -1,0 +1,26 @@
+.NavbarBg {
+  font-size: 1.5em;
+  /* background-color:rgb(24, 38, 65) */
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 25%,
+    rgba(9, 121, 99, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  /* background-color: rgb(11, 77, 94); */
+  margin: 10px 5px 5px 5px;
+  border-radius: 50px;
+  opacity: 0.8;
+  box-shadow: 2px 2px 5px black;
+}
+@media only screen and (max-width: 990px) {
+  #Navbar {
+    border-radius: 5px;
+  }
+}
+@media only screen and (max-width: 280px) {
+  #Navbar {
+    width: 370px;
+  }
+}

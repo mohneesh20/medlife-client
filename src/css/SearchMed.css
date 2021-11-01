@@ -1,0 +1,31 @@
+.selectdiv {
+  height: 50px;
+  background: transparent;
+  outline: none;
+  border-radius: 5px;
+  border: 2px white solid;
+  color: goldenrod;
+  font-weight: bold;
+  text-align: center;
+}
+select option {
+  margin: 40px;
+  height: 40px;
+  background: rgba(0, 0, 0, 1);
+  color: white;
+  font-weight: bold;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+.card_style {
+  background-color: rgb(11, 77, 94);
+  width: 350px;
+  height: 450px;
+  border: 2px goldenrod solid;
+  border-radius: 5px;
+  margin: 5px;
+}
+h3 {
+  color: red;
+  font-weight: bold;
+  font-size: small;
+}

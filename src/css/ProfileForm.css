@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:wght@300&display=swap");
+.container {
+  /* background-color:grey; */
+  /* overflow-y:none; */
+}
+tr{
+  color:goldenrod
+}
+h1 {
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+  color: goldenrod;
+  font-weight: bolder;
+  margin-bottom: 0px;
+  margin-top: -60px;
+}
+.formTitle {
+  color: goldenrod;
+  font-size: larger;
+  font-family: "Roboto Mono", serif;
+  font-weight: bolder;
+  margin-top: 50px;
+}
+.formInput {
+  background: transparent;
+  border-radius: 0px;
+  color: white;
+  font-weight: bolder;
+  font-family: "Roboto Mono", serif;
+  outline-color: white;
+  border-radius: 5px;
+  height: 50px;
+}
+.formInput::-webkit-input-placeholder {
+  font-weight: bolder;
+  color: darkgray;
+}
+.formInput:focus {
+  background: transparent;
+  outline: none;
+  color: white;
+}
+.formInput2 {
+  color: white;
+  background: transparent;
+}
+.profilePic {
+  width: 250px;
+  height: 250px;
+  /* background-color: oldlace; */
+  margin: 5px;
+  border-radius: 10px;
+  outline: goldenrod 3px solid;
+}
+.aadharPic {
+  width: 250px;
+  height: 250px;
+  /* background-color: oldlace; */
+  margin-bottom: 10px;
+  margin-top: 3px;
+  border-radius: 10px;
+  outline: goldenrod 3px solid;
+}
+.btn34 {
+  width: 100%;
+  margin-top: -3px;
+  margin-bottom: 50px;
+}
+.MedType {
+  background: transparent;
+  width: 100%;
+  color: goldenrod;
+  font-size: 1.4em;
+  border-radius: 0px;
+  /* outline-width: 2px white solid; */
+}
+@media only screen and (min-width: 700px) {
+  #mobile_button {
+    display: none;
+  }
+  #desktop_button {
+    margin-top: 50px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  #desktop_button {
+    display: none;
+  }
+}

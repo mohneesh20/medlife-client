@@ -1,0 +1,24 @@
+.container {
+  margin-top: 80px;
+}
+.image-container {
+  /* align-items: center; */
+  margin-left: -50px;
+}
+.quote_conatiner {
+  color: white;
+  padding-left: 20px;
+  margin-left: 10px;
+  margin-top: 25px;
+}
+.word {
+  font-weight: bolder;
+  font-size: 50px;
+}
+.word_1 {
+  font-weight: bolder;
+  font-size: 45px;
+}
+.sentence {
+  font-size: 45px;
+}
