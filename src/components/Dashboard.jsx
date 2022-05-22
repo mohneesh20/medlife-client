@@ -54,7 +54,7 @@ function Dashboard(){
                     <img src={`../uploads/${responseObj.ProfilePic}`} alt="PROFILE PIC" width="100%" height="100%"></img>
                 </div>
                 <div style={{display:'flex',flexDirection:'column',alignItems:'center'}}>
-                    <h6 style={{fontWeight:'bolder',fontSize:'30px',color:'goldenrod'}}>MY PROFILE</h6>
+                    <h6 style={{fontWeight:'bolder',fontSize:'20px',color:'goldenrod'}}>MY PROFILE</h6>
                     <table>
                         <tbody>
                         <tr key={1}>
